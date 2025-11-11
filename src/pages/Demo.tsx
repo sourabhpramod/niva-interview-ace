@@ -22,13 +22,13 @@ const Demo = () => {
           </div>
 
           <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl bg-accent/30 border border-border/50">
-            <iframe
-              className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/watch?v=MK83clSv6-k"
-              title="Niva AI Demo Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src="https://www.youtube.com/embed/MK83clSv6-k"
+            title="Niva AI Demo Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">

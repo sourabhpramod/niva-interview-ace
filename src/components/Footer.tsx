@@ -32,21 +32,30 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">About Us</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Careers</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Blog</a></li>
+            <li>
+                <a
+                  href="https://www.qulander.com"
+                  className="text-muted-foreground hover:text-primary transition-colors font-light"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  About Us
+                </a>
+              </li>
+              {/* <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Careers</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Blog</a></li> */}
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Contact</a></li>
             </ul>
           </div>
           
-          <div>
+          {/* <div>
             <h4 className="font-semibold text-foreground mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Privacy Policy</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Terms of Service</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors font-light">Cookie Policy</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
         
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
