@@ -40,17 +40,17 @@ const Hero = () => {
             
             <div className="flex items-center gap-8 pt-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">10K+</div>
-                <div className="text-sm text-muted-foreground font-light">Active Users</div>
+                <div className="text-3xl font-bold text-primary">Tech</div>
+                <div className="text-sm text-muted-foreground font-light">Interviews</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">95%</div>
-                <div className="text-sm text-muted-foreground font-light">Success Rate</div>
+                <div className="text-3xl font-bold text-primary">PSC/SSC</div>
+                <div className="text-sm text-muted-foreground font-light">Interviews</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">50K+</div>
+                <div className="text-3xl font-bold text-primary">UPSC</div>
                 <div className="text-sm text-muted-foreground font-light">Interviews</div>
               </div>
             </div>

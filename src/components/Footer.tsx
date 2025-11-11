@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-purple-600 flex items-center justify-center">
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-foreground">Niva AI</span>
+              <span className="text-xl font-bold text-foreground">Qulander Tech</span>
             </div>
             <p className="text-muted-foreground font-light text-sm leading-relaxed">
               Transforming interview preparation with intelligent AI technology.
@@ -51,7 +51,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground font-light">
-            © {currentYear} Niva AI. All rights reserved.
+            © {currentYear} Qulander Tech. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm font-light">Twitter</a>

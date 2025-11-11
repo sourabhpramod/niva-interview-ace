@@ -39,9 +39,15 @@ const Features = () => {
     <section className="py-24 lg:py-32 bg-gradient-to-b from-background to-accent/20">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <h2 className="text-4xl lg:text-5xl font-bold tracking-tight">
-            Why Choose <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Niva AI</span>
-          </h2>
+        <h2 className="text-4xl lg:text-5xl font-bold tracking-tight">
+          Why Choose{" "}
+          <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
+            Niva AI
+          </span>{" "}
+          from <span className="bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent font-semibold">
+      Qulander Tech
+    </span>
+        </h2>
           <p className="text-lg text-muted-foreground font-light">
             Advanced features designed to provide the most realistic and effective interview preparation experience.
           </p>
