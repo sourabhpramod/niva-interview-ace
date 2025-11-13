@@ -9,6 +9,8 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { ArrowLeft, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { toast } from "sonner";
+import emailjs from "emailjs-com";
+
 
 const formSchema = z.object({
   name: z.string().trim().min(2, "Name must be at least 2 characters").max(100, "Name must be less than 100 characters"),
@@ -36,12 +38,22 @@ const RequestAccess = () => {
     },
   });
 
-  const onSubmit = (data: FormData) => {
-    // TODO: Implement actual form submission
-    console.log("Form submitted:", data);
-    toast.success("Request submitted successfully!");
-    setSubmitted(true);
+  const onSubmit = async (data: FormData) => {
+    try {
+      await emailjs.send(
+        "service_m7njx0b",
+        "template_rzmq0rc",
+        data,
+        "Eh_WWmMFeavej0ZrW"
+      );
+      toast.success("Request submitted successfully!");
+      setSubmitted(true);
+    } catch (err) {
+      console.error(err);
+      toast.error("Failed to send message");
+    }
   };
+  
 
   if (submitted) {
     return (
